@@ -69,3 +69,53 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f1ea;
+    color: #4a4a4a;
+}
+
+.header {
+    background-color: #556B2F;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.goal {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+    background-color: #556B2F;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+    .cta-button:hover {
+        background-color: #6B8E23;
+        color: white;
+        text-decoration: none;
+    }
